@@ -42,21 +42,17 @@ The analysis includes **exploratory data analysis (EDA), feature engineering, an
 - **Best-Performing Models:** Random Forest and XGBoost yielded the most accurate fare predictions.  
 
 ## Model Performance Metrics  
-### **Gradient Boosting Regressor**  
+### **Gradient Boosting Regresser**  
 ### **Decision Tree Regressor**  
 ### **XGBoost Regressor**  
 ### **K-Nearest Neighbors (KNN)**  
 
-Model Selection Criteria
-Lower Error Metrics (MSE, RMSE, MAE):
+**Model Selection Criteria**
 
-Mean Squared Error (MSE): Measures the average squared difference between actual and predicted fares. Lower is better.
-Root Mean Squared Error (RMSE): Similar to MSE but in the same units as fare. Lower is better.
-Mean Absolute Error (MAE): Measures the absolute difference between actual and predicted fares. Lower is better.
-Higher R² Score (R-Squared):
-
-Represents how well the model explains variance in fare predictions.
-A higher R² means a better fit.
+**Mean Squared Error (MSE)**: Measures the average squared difference between actual and predicted fares. Lower is better.
+**Root Mean Squared Error (RMSE)**: Similar to MSE but in the same units as fare. Lower is better.
+**Mean Absolute Error (MAE)**: Measures the absolute difference between actual and predicted fares. Lower is better.
+**Higher R² Score (R-Squared)**:Represents how well the model explains variance in fare predictions. higher R² means a better fit.
 
 
 ## Model Deployment  
