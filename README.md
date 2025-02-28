@@ -42,10 +42,10 @@ The analysis includes **exploratory data analysis (EDA), feature engineering, an
 - **Best-Performing Models:** Random Forest and XGBoost yielded the most accurate fare predictions.  
 
 ## Model Performance Metrics  
-### **Gradient Boosting Regresser**  
-### **Decision Tree Regressor**  
-### **XGBoost Regressor**  
-### **K-Nearest Neighbors (KNN)**  
+Gradient Boosting Regresser
+Decision Tree Regressor  
+XGBoost Regressor 
+K-Nearest Neighbors (KNN)
 
 **Model Selection Criteria**
 
