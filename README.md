@@ -43,28 +43,21 @@ The analysis includes **exploratory data analysis (EDA), feature engineering, an
 
 ## Model Performance Metrics  
 ### **Gradient Boosting Regressor**  
-- **MSE:** 0.0154  
-- **RMSE:** 0.1244  
-- **MAE:** 0.0035  
-- **R-squared:** 98.52%  
-
 ### **Decision Tree Regressor**  
-- **MSE:** 0.0171  
-- **RMSE:** 0.1310  
-- **MAE:** 0.0011  
-- **R-squared:** 98.36%  
-
 ### **XGBoost Regressor**  
-- **MSE:** 0.0530  
-- **RMSE:** 0.2303  
-- **MAE:** 0.0118  
-- **R-squared:** 94.93%  
-
 ### **K-Nearest Neighbors (KNN)**  
-- **MSE:** 0.0154  
-- **RMSE:** 0.1244  
-- **MAE:** 0.0035  
-- **R-squared:** 98.52%  
+
+Model Selection Criteria
+Lower Error Metrics (MSE, RMSE, MAE):
+
+Mean Squared Error (MSE): Measures the average squared difference between actual and predicted fares. Lower is better.
+Root Mean Squared Error (RMSE): Similar to MSE but in the same units as fare. Lower is better.
+Mean Absolute Error (MAE): Measures the absolute difference between actual and predicted fares. Lower is better.
+Higher R² Score (R-Squared):
+
+Represents how well the model explains variance in fare predictions.
+A higher R² means a better fit.
+
 
 ## Model Deployment  
 - The best-performing model was deployed using **Flask API** for real-time fare prediction.  
